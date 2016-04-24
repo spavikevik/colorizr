@@ -8,5 +8,5 @@ Gem::Specification.new do |s|
   s.email       = 'stefan_pavikevik@outlook.com'
   s.files       = ["lib/colorizr.rb"]
   s.homepage    = 'localhost'
-  s.license     = 'BSD'
+  s.license     = 'MIT'
 end
