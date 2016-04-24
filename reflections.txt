@@ -1,0 +1,27 @@
+1. I have taken advantage of Ruby's metaprogramming
+capabilities by using class_eval to create color
+methods for each key in the @@colors hash.
+Each generated method takes as an argument the object
+from which it is called and applies the modifications
+defined in the hash accordingly.
+I have also used the send method to dynamically call
+each of the coloring methods in the definition of
+sample_colors.
+
+2. I have spent about 1 hour working on this project.
+
+3. The most rewarding challenges I've conquered in
+this project are figuring out how to add arguments
+to the dynamically defined methods, namely the "self"
+argument as it refers to the object from which the method
+is called, and not the class; using send to dynamically
+call methods; learning how to write nice README files.
+
+4. As for growth, I think it would be on how to use
+metaprogramming in other areas.
+Actually, I think I should spend some time studying
+and exploring metaprogramming in more depth as it
+is a totally new thing to me and I find it quite
+interesting. I want to find out what all things
+I could do with metaprogramming are. Also, does
+it have anything to do with functional programming?
